@@ -40,7 +40,7 @@ namespace Specflow_Xamarin_Team_Proj.SystemTasks
         {
             try
             {
-                AppResult[] result = app.Query(c => c.Marked("Get Milk"));
+                AppResult[] result = app.Query(c => c.Marked(taskTitle));
                 if (result.Length == 0)
                 {
                     return false;
@@ -61,7 +61,6 @@ namespace Specflow_Xamarin_Team_Proj.SystemTasks
                 Console.WriteLine("Exception caught");
                 return false;
             }
-            return false;
         }
 
         public ITasks SaveTask()

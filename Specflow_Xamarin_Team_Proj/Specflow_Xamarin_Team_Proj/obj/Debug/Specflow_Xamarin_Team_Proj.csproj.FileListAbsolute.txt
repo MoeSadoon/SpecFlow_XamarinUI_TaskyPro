@@ -6,7 +6,6 @@ C:\Users\Chris Gungaloo\Documents\Visual Studio 2015\Projects\SpecFlow_XamarinUI
 C:\Users\Chris Gungaloo\Documents\Visual Studio 2015\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\bin\Debug\Xamarin.UITest.dll
 C:\Users\Chris Gungaloo\Documents\Visual Studio 2015\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\bin\Debug\nunit.framework.xml
 C:\Users\Chris Gungaloo\Documents\Visual Studio 2015\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\bin\Debug\Xamarin.UITest.xml
-C:\Users\Chris Gungaloo\Documents\Visual Studio 2015\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\obj\Debug\Specflow_Xamarin_Team_Proj.csprojResolveAssemblyReference.cache
 C:\Users\Chris Gungaloo\Documents\Visual Studio 2015\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\obj\Debug\Specflow_Xamarin_Team_Proj.dll
 C:\Users\Chris Gungaloo\Documents\Visual Studio 2015\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\obj\Debug\Specflow_Xamarin_Team_Proj.pdb
 C:\Users\Moe Sadoon\Documents\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\bin\Debug\Specflow_Xamarin_Team_Proj.dll.config
@@ -20,3 +19,4 @@ C:\Users\Moe Sadoon\Documents\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xama
 C:\Users\Moe Sadoon\Documents\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\obj\Debug\Specflow_Xamarin_Team_Proj.csprojResolveAssemblyReference.cache
 C:\Users\Moe Sadoon\Documents\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\obj\Debug\Specflow_Xamarin_Team_Proj.dll
 C:\Users\Moe Sadoon\Documents\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\obj\Debug\Specflow_Xamarin_Team_Proj.pdb
+C:\Users\Chris Gungaloo\Documents\Visual Studio 2015\Projects\SpecFlow_XamarinUI_TaskyPro\Specflow_Xamarin_Team_Proj\Specflow_Xamarin_Team_Proj\obj\Debug\Specflow_Xamarin_Team_Proj.csprojResolveAssemblyReference.cache

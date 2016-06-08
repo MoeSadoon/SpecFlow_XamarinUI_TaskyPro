@@ -15,7 +15,7 @@ namespace Specflow_Xamarin_Team_Proj.StepDefinitions
         [Given(@"I have added a task ""(.*)""")]
         public void GivenIHaveAddedATask(string taskName)
         {
-            tasks = AppInitializer.StartApp(platform);
+            tasks = BeforeAfterHooks.tasks;
 
             tasks
             .AddTask()

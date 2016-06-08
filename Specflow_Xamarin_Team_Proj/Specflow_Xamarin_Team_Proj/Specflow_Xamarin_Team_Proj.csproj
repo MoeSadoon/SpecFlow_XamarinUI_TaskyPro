@@ -49,8 +49,8 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="TechTalk.SpecFlow, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
-      <HintPath>..\packages\SpecFlow.2.0.0\lib\net45\TechTalk.SpecFlow.dll</HintPath>
+    <Reference Include="TechTalk.SpecFlow, Version=1.9.0.77, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.UITest, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -59,6 +59,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\AdMultipleItems.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdMultipleItems.feature</DependentUpon>
+    </Compile>
+    <Compile Include="StepDefinitions\AdMultipleItemsSteps.cs" />
+    <Compile Include="StepDefinitions\BeforeAfterHooks.cs" />
     <Compile Include="Features\AddATask.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -75,12 +82,18 @@
     <Compile Include="SystemTasks\IOSTasks.cs" />
     <Compile Include="SystemTasks\ITasks.cs" />
     <Compile Include="AppInitializer.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="TaskRetreiver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Features\AddATask.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>AddATask.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\AdMultipleItems.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>AdMultipleItems.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\DeletingATask.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

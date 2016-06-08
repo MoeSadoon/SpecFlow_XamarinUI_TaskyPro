@@ -7,24 +7,27 @@ using Specflow_Xamarin_Team_Proj.SystemTasks;
 namespace Specflow_Xamarin_Team_Proj.StepDefinitions
 {
     [Binding]
+    [TestFixture(Platform.Android)]
+    [TestFixture(Platform.iOS)]
     public class AddATaskSteps
     {
-        ITasks tasks;
+        public ITasks tasks;
         Platform platform;
 
         [Given(@"I am on the homepage")]
         public void GivenIAmOnTheHomepage()
         {
-            tasks = AppInitializer.StartApp(platform);
+            tasks = BeforeAfterHooks.tasks;
         }
         
         [When(@"I add a task called ""(.*)""")]
         public void WhenIAddATaskCalled(string taskName)
         {
+            //Table Extensions
             tasks
                 .AddTask()
                 .AddTitle(taskName)
-                .AddNote("Get milk from shop");
+                .AddNote("Get Eggs from shop");
         }
         
         [When(@"I save the task")]

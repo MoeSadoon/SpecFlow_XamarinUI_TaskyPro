@@ -6,6 +6,6 @@
 @AddTask
 Scenario: Adding a task
 	Given I am on the homepage
-	When I add a task called "Get Milk"
+	When I add a task called "Get Eggs"
 	And I save the task
-	Then I should see "Get Milk" on the homepage
+	Then I should see "Get Eggs" on the homepage
